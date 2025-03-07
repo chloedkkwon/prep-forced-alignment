@@ -1,6 +1,7 @@
-% Written by Chloe D. Kwon
+% Written by Chloe D. Kwon (chloe.dkkwon@gmail.com)
 % March 7, 2025
 % Randomly selects a ntrain amount of training data, copies the files to a training folder
+
 function [] = choose_trainset(audio_dir, grid_dir, train_dir, ntrain)
 dbstop if error
 
