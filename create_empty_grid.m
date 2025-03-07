@@ -1,3 +1,7 @@
+% Written by Chloe D. Kwon (chloe.dkkwon@gmail.com)
+% March 7, 2025
+% Creates empty grids for the files in audio_dir and outputs it to the grid_dir. 
+
 function [] = create_empty_grid(audio_dir, grid_dir nword, nphone)
 
 dbstop if error
